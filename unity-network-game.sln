@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLogger", "ZLogger.csproj", "{0bce1f1b-a44e-01cf-ce35-0bbe9f1ba29e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime", "Runtime.csproj", "{d5be5cac-9ce1-6944-d207-4987214d7b8f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networks", "Networks.csproj", "{01aab44b-278e-0dcc-25bc-6e8d938c0fe2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{ece0a392-5f98-bc40-746e-8549a485181e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{a7947a9c-5661-1bde-0c0e-209e7b2b4bb3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0bce1f1b-a44e-01cf-ce35-0bbe9f1ba29e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0bce1f1b-a44e-01cf-ce35-0bbe9f1ba29e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d5be5cac-9ce1-6944-d207-4987214d7b8f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d5be5cac-9ce1-6944-d207-4987214d7b8f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01aab44b-278e-0dcc-25bc-6e8d938c0fe2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01aab44b-278e-0dcc-25bc-6e8d938c0fe2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ece0a392-5f98-bc40-746e-8549a485181e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ece0a392-5f98-bc40-746e-8549a485181e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a7947a9c-5661-1bde-0c0e-209e7b2b4bb3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a7947a9c-5661-1bde-0c0e-209e7b2b4bb3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
