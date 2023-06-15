@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ece0a392-5f98-bc40-746e-8549a485181e}</ProjectGuid>
+    <ProjectGuid>{86387571-f401-3af0-c117-61b52c052ee9}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -48,7 +48,6 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\netstandard2.0" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Packages\System.Diagnostics.DiagnosticSource.7.0.2\lib" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -56,8 +55,9 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Packages\System.Diagnostics.DiagnosticSource.7.0.2\buildTransitive\net462" />
-     <Folder Include="Assets\Scripts" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Packages\System.Diagnostics.DiagnosticSource.7.0.2" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />

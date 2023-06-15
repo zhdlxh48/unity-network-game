@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLogger", "ZLogger.csproj", "{e28c8776-af0b-fe38-a760-0ce95a8be716}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime", "Runtime.csproj", "{d92585fa-8101-0170-3a3b-3e427a99c354}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{86387571-f401-3af0-c117-61b52c052ee9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{0223e54f-2283-cc66-d582-976af800f6d0}"
@@ -14,6 +16,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{e28c8776-af0b-fe38-a760-0ce95a8be716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e28c8776-af0b-fe38-a760-0ce95a8be716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d92585fa-8101-0170-3a3b-3e427a99c354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d92585fa-8101-0170-3a3b-3e427a99c354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86387571-f401-3af0-c117-61b52c052ee9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86387571-f401-3af0-c117-61b52c052ee9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0223e54f-2283-cc66-d582-976af800f6d0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

@@ -1,39 +1,32 @@
-﻿using FiveBee.Runtime.Networks;
-using TMPro;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-namespace FiveBee.Runtime.UIs
+public class UIManager : MonoBehaviour
 {
-    public class UIManager : MonoBehaviour
-    {
-        private static UIManager _instance;
-        public static UIManager Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    _instance = FindObjectOfType<UIManager>();
-                }
-                if (_instance == null)
-                {
-                    Debug.LogWarning($"Instance of {nameof(UIManager)} not found, creating new one...");
-                    _instance = new GameObject("UIManager").AddComponent<UIManager>();
-                }
-                
-                return _instance;
-            }
-        }
-        
-        public GameObject startMenu;
-        public TMP_InputField usernameField;
+    public static UIManager instance;
 
-        public void ConnectToServer()
+    public GameObject startMenu;
+    public InputField usernameField;
+
+    private void Awake()
+    {
+        if (instance == null)
         {
-            startMenu.SetActive(false);
-            usernameField.interactable = false;
-            
-            Client.Instance.ConnectToServer();
+            instance = this;
         }
+        else if (instance != this)
+        {
+            Debug.Log("Instance already exists, destroying object!");
+            Destroy(this);
+        }
+    }
+
+    public void ConnectToServer()
+    {
+        startMenu.SetActive(false);
+        usernameField.interactable = false;
+        Client.instance.ConnectToServer();
     }
 }

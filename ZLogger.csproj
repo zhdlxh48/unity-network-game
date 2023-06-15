@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0bce1f1b-a44e-01cf-ce35-0bbe9f1ba29e}</ProjectGuid>
+    <ProjectGuid>{e28c8776-af0b-fe38-a760-0ce95a8be716}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -336,73 +336,73 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Logging">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Logging.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Logging.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Options.ConfigurationExtensions">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Options.ConfigurationExtensions.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Options.ConfigurationExtensions.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Logging.Configuration">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Logging.Configuration.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Logging.Configuration.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Configuration.Binder">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.DependencyInjection">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.DependencyInjection.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.DiagnosticSource">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Options">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Options.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Options.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Primitives">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Primitives.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Configuration">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Configuration.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Configuration.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZString\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZString\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Channels">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\System.Threading.Channels.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\System.Threading.Channels.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Assets\Plugins\Dlls\ZLogger\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -771,13 +771,13 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="ZString">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\ScriptAssemblies\ZString.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\ScriptAssemblies\ZString.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\zhdlxh48\source\repos\unity-network-game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\zhdlxh48\source\repos\UnityNetworkGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
