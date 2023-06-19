@@ -1,25 +1,27 @@
-﻿namespace Server;
+﻿namespace BJServer;
 
 public class Room
 {
-    private int _maxCount;
-    
-    public bool IsFull => clients.Count >= _maxCount;
+    private readonly int _maxCount;
 
-    private List<Client> clients = new();
+    public readonly List<Client> Clients = new();
+    public readonly int Id;
 
-    public Room(int max)
+    public Room(int id, int max)
     {
+        Id = id;
         _maxCount = max;
     }
-    
+
+    public bool IsFull => Clients.Count >= _maxCount;
+
     public void AddClient(Client client)
     {
-        clients.Add(client);
+        Clients.Add(client);
     }
-    
+
     public void RemoveClient(Client client)
     {
-        clients.Remove(client);
+        Clients.Remove(client);
     }
 }

@@ -1,29 +1,32 @@
 ﻿using System.Net;
 using System.Net.Sockets;
-using System.Text;
+using ServerLib;
 
-namespace Server;
+namespace BJServer;
 
 public class Client
 {
     public readonly int Id;
+    public string Email { get; set; } = string.Empty;
     public int RoomId { get; set; } = -1;
     
+    public int DrawCard { get; set; } = 0;
+
     public TcpClient Socket { get; private set; }
     public NetworkStream Stream { get; private set; }
-
-    private CancellationTokenSource _cts;
+    
+    private readonly CancellationTokenSource _cts;
 
     public Client(int id, TcpClient socket)
     {
         Id = id;
-        
+
         _cts = new CancellationTokenSource();
-        
+
         Socket = socket;
         Socket.ReceiveBufferSize = Constants.BufferSize;
         Socket.SendBufferSize = Constants.BufferSize;
-        
+
         Stream = Socket.GetStream();
     }
 
@@ -31,16 +34,15 @@ public class Client
     {
         var clientIpEp = Socket.Client.RemoteEndPoint as IPEndPoint;
         Console.WriteLine($"Client {Id} has connected! ({clientIpEp?.Address})");
-        
+
         Receive();
-        
-        var data = new ClientEvent(ClientEventType.Connect, "Hello from the server!");
-        Send(data);
+
+        ServerEvent.Welcome(this);
     }
 
-    private async Task Receive()
+    private async void Receive()
     {
-        while (_cts.IsCancellationRequested == false) 
+        while (_cts.IsCancellationRequested == false)
         {
             var bufferSize = Socket.ReceiveBufferSize;
 
@@ -52,30 +54,38 @@ public class Client
                 return;
             }
 
-            var data = ClientEvent.Parse(this, buffer, length);
+            var data = EventData.Parse(buffer, length);
             Console.WriteLine($"Received event {data.Type} from client {Id}!");
+
+            Server.HandleEvent(data, this);
         }
     }
-    
-    public async Task Send(ClientEvent data)
+
+    public async Task Send(EventData evt)
     {
-        var buffer = ClientEvent.Convert(data);
+        var buffer = EventData.Convert(evt);
         await Stream.WriteAsync(buffer, 0, buffer.Length, _cts.Token);
+    }
+
+    public void Initialize()
+    {
+        RoomId = -1;
+        DrawCard = 0;
     }
 
     public void Disconnect()
     {
         _cts.Cancel();
         _cts.Dispose();
-        
+
         Socket.Close();
         Stream.Close();
-        
+
         Socket = null;
         Stream = null;
-        
+
         Server.RejectClient(Id);
-        
+
         Console.WriteLine($"Client {Id} has disconnected!");
     }
 }

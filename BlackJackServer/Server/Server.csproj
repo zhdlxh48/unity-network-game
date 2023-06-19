@@ -4,11 +4,23 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
+        <LangVersion>10</LangVersion>
+        <RootNamespace>BJServer</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <ProjectReference Include="..\ServerLib\ServerLib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MySql.Data" Version="8.0.33" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="MySql.Data">
+        <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 8.0.33.1\MySql.Data.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
